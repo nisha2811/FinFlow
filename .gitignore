@@ -1,0 +1,77 @@
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Secrets and credentials
+# =========================
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# =========================
+# Database
+# =========================
+expense_management.db
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Uploads
+# =========================
+uploads/*
+!uploads/.gitkeep
+!uploads/receipts/
+!uploads/receipts/.gitkeep
+
+# =========================
+# Node / Frontend
+# =========================
+expense-management-ui/node_modules/
+expense-management-ui/dist/
+expense-management-ui/dist-ssr/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+!.vscode/extensions.json
+
+.idea/
+*.iml
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
